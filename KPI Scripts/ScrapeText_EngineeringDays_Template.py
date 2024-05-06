@@ -16,7 +16,7 @@ def count_word_occurrences_in_tables(doc_path, word_pairs):
 
     return counts
 
-doc_path = '.docx'
+doc_path = ''
 word_pairs = [('', ''), ('', '')]
 counts = count_word_occurrences_in_tables(doc_path, word_pairs)
 
